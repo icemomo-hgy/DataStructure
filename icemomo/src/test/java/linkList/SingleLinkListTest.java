@@ -1,5 +1,6 @@
 package linkList;
 
+import org.dataStructure.linkLisk.ReverseList;
 import org.dataStructure.linkLisk.SingleLinkList;
 import org.junit.Test;
 
@@ -18,8 +19,7 @@ public class SingleLinkListTest {
         node0.add(node1);
         node0.add(node2);
         node0.add(node3);
-        node0.delete(1);
-        node0.delete(2);
-        System.out.println(node0);
+        SingleLinkList reverse = ReverseList.reverse(node0);
+        System.out.println(reverse);
     }
 }

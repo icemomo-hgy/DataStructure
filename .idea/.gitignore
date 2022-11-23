@@ -9,4 +9,5 @@
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
 ../icemomo/src/test/**
+../icemomo/target
 
